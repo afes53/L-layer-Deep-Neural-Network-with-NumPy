@@ -3,7 +3,7 @@ This project demonstrates the implementation of a deep neural network from scrat
 
 # Overview
 ## 1. Import Libraries and Load Data
-The project starts by importing the necessary libraries, namely NumPy and Pandas. The dataset, which contains images represented as rows with pixel values in columns, is loaded from a CSV file. To facilitate processing, the dataset is transposed so that each column represents an image, and each row contains the pixel values.
+The dataset used in this project is from the Kaggle Digit Recognizer competition. It consists of images of handwritten digits (0-9), where each image is represented by a 28x28 pixel grid (784 pixels in total).
 
 ## 2. Preprocess Data
 The data is converted into a NumPy array and shuffled to ensure randomness. The dataset is then split into features (pixel values) and labels. The feature values are normalized to fall within a specific range.
