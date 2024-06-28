@@ -39,5 +39,5 @@ The training function integrates all the above components. It iteratively perfor
 ## 9. Evaluate the Model
 After training, the model's performance is evaluated on the test dataset. The final trained model can make predictions on new data, and the accuracy of these predictions can be visualized and assessed.
 
-##Conclusion
+## Conclusion
 This project provides a comprehensive implementation of a deep neural network using NumPy, offering insights into the underlying mechanics of neural networks and their training process. It serves as an educational tool for understanding and building neural networks from the ground up.
